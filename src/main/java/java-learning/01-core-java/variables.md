@@ -123,6 +123,86 @@ public class NonPrimitiveExample {
 }
 ```
 
+Data tyepe
+in java data types specifies the type of data a variable can store;
+
+
+**primitive** and **non-primitive** data types in Java in a clear and simple way:
+
+---
+
+## 🔹 **1. Primitive Data Types (Built-in types)**
+
+These are the **most basic types** in Java, and they **store simple values** directly in memory.
+
+### ✅ Characteristics:
+
+* Predefined by Java
+* Store **actual values**
+* **Not objects**
+* **Faster** and use **less memory**
+* **Cannot call methods** on them directly
+
+### 🧱 Types of Primitives:
+
+| Type      | Size    | Example             |
+| --------- | ------- | ------------------- |
+| `byte`    | 1 byte  | `byte b = 10;`      |
+| `short`   | 2 bytes | `short s = 1000;`   |
+| `int`     | 4 bytes | `int x = 5000;`     |
+| `long`    | 8 bytes | `long l = 999999L;` |
+| `float`   | 4 bytes | `float f = 3.14f;`  |
+| `double`  | 8 bytes | `double d = 9.81;`  |
+| `char`    | 2 bytes | `char c = 'A';`     |
+| `boolean` | 1 bit   | `boolean b = true;` |
+
+---
+
+## 🔸 **2. Non-Primitive Data Types (Reference types)**
+
+These are **created by the programmer** or **provided by Java as classes**. They **store references** (memory addresses) to the actual data.
+
+### ✅ Characteristics:
+
+* Can **store multiple values** or more complex data
+* **Can be null**
+* **Objects or arrays**
+* You can **call methods** on them
+* Stored as **references**, not values
+
+### 🧱 Examples of Non-Primitives:
+
+| Type          | Example                                  |
+| ------------- | ---------------------------------------- |
+| `String`      | `String name = "Mehvish";`               |
+| `Array`       | `int[] nums = {1, 2, 3};`                |
+| `Class`       | `Student s = new Student();`             |
+| `Interface`   | `Runnable r = () -> {}`;                 |
+| `Collections` | `List<String> list = new ArrayList<>();` |
+
+---
+
+## 🧠 **Key Differences:**
+
+| Feature       | Primitive    | Non-Primitive         |
+| ------------- | ------------ | --------------------- |
+| Memory stored | Value        | Reference             |
+| Can be null?  | ❌ No         | ✅ Yes                 |
+| Methods?      | ❌ No methods | ✅ Have methods        |
+| Created by    | Java         | You (or Java classes) |
+| Performance   | Faster       | Slightly slower       |
+
+---
+
+### ⚡ Example Code:
+
+```java
+int age = 21;                          // primitive
+String name = "Mehvish";              // non-primitive
+int[] scores = {90, 80, 70};          // non-primitive array
+```
+
+
 ---
 
 ### 🔷 What is an *Instance* of a Class in Java?
