@@ -24,8 +24,8 @@ class Car {
 An object is an instance of a class.
 It has state (variables) and behavior (methods).
 
-✔ How Objects are Created
-Car myCar = new Car();
+✔ How Objects are Created 
+Car myCar = new Car(); //using new keyword
 myCar.drive();
 
 ✔ Memory Allocation
